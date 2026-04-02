@@ -1,0 +1,12 @@
+{
+  "flashcard": {
+    "session_count": 0,
+    "total_correct": 0,
+    "total_attempted": 0,
+    "seen_words": []
+  },
+  "daily": {
+    "last_date": "",
+    "last_word_index": -1
+  }
+}
