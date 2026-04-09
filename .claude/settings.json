@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(/Users/bayalagmaa/Desktop/Claude/chinese-learning-bot/**)",
+      "Write(/Users/bayalagmaa/Desktop/Claude/chinese-learning-bot/data/progress.json)",
+      "Bash(date:*)",
+      "Bash(date +%Y-%m-%d)"
+    ]
+  }
+}
