@@ -10,13 +10,15 @@ A Telegram bot that helps you learn Mandarin Chinese — built with Claude Chann
 
 ## What It Does
 
-The bot has 4 skills covering all aspects of Chinese vocabulary learning (HSK 1 & 2 focused):
+The bot has **6 skills** covering all aspects of Chinese learning (HSK 1 & 2 focused):
 
 | Command | What It Does |
 |---------|--------------|
 | `daily` | Word of the day — character, pinyin, meaning, and example sentence |
+| `slang` | Modern Chinese internet slang and Gen Z expressions (内卷, 躺平, yyds...) |
+| `story` | Short Chinese reading story with line-by-line pinyin + comprehension question |
 | `flashcard` | Quiz question from HSK 1-2 vocab |
-| `answer <your answer>` | Check your flashcard answer and get feedback |
+| `answer <your answer>` | Check your flashcard or story comprehension answer |
 | `translate <Chinese text>` | Translate + explain any Chinese text with character breakdown |
 | `practice <character>` | Radical breakdown, stroke order, and mnemonic for a character |
 | `score` | View your flashcard quiz progress |
@@ -60,6 +62,30 @@ You:  practice 好
 Bot:  ✍️ Writing Practice: 好
       Strokes: 6 total
       💡 好 = woman (女) + child (子) = "good/beautiful" ❤️
+```
+
+### Slang
+```
+You:  slang
+Bot:  🔥 Chinese Slang of the Day
+      🛌 躺平 (tǎng píng)
+      Meaning: "Lying flat" — rejecting hustle culture...
+      Example: 我决定躺平了，不想再卷了。
+```
+
+### Story Reading
+```
+You:  story
+Bot:  📖 Reading Practice — HSK1 level
+      我的一天 (Wǒ de yī tiān) "My Day"
+      ━━━━━━━━━━━━━━━━
+      我每天早上七点起床。
+      Wǒ měitiān zǎoshang qī diǎn qǐchuáng.
+      ...
+      ❓ What does the person eat for breakfast?
+
+You:  answer bread and eggs
+Bot:  ✅ Correct! Great reading!
 ```
 
 ---
@@ -148,14 +174,18 @@ chinese-learning-bot/
 
 This project was built using proper git workflow:
 
-- **4 GitHub issues** — one per skill (#1, #2, #3, #4)
-- **4 feature branches** — `feature/daily-chinese`, `feature/chinese-flashcard`, `feature/chinese-translate`, `feature/chinese-practice`
-- **2 git worktrees** — `chinese-flashcard` and `chinese-translate` developed in parallel:
+- **6 GitHub issues** — one per skill (#1–#4, #9–#10)
+- **6 feature branches** — one per skill
+- **4 git worktrees** — skills developed in parallel:
   ```bash
+  # Round 1
   git worktree add ../chinese-bot-flashcard feature/chinese-flashcard
   git worktree add ../chinese-bot-translate feature/chinese-translate
+  # Round 2
+  git worktree add ../chinese-bot-slang feature/chinese-slang
+  git worktree add ../chinese-bot-story feature/chinese-story
   ```
-- **4 PRs merged** — #5, #6, #7, #8
+- **6 PRs merged** — #5, #6, #7, #8, #11, #12
 
 ---
 
