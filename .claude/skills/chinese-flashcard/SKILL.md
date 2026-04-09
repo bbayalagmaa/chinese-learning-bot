@@ -14,14 +14,14 @@ Each quiz is one round: you show one word, the user replies with their guess, yo
 
 ## Steps
 
-1. Read `data/vocabulary.json` to get the full vocabulary list.
-2. Read `data/progress.json` to get `flashcard.seen_words` (array of already-quizzed characters).
+1. Read `/Users/bayalagmaa/Desktop/Claude/chinese-learning-bot/data/vocabulary.json` to get the full vocabulary list.
+2. Read `/Users/bayalagmaa/Desktop/Claude/chinese-learning-bot/data/progress.json` to get `flashcard.seen_words` (array of already-quizzed characters).
 3. Pick a word the user hasn't seen yet. If all words have been seen, reset `seen_words` to `[]` (start over) and tell the user they completed all words.
 4. Show the flashcard question (see format below).
 5. Wait for the user's reply (they will type their answer in the next message).
 6. When you receive an answer:
    - Compare it to the word's `meaning` field (case-insensitive, partial match counts).
-   - Update `data/progress.json`: increment `total_attempted`, increment `total_correct` if right, add the character to `seen_words`.
+   - Update `/Users/bayalagmaa/Desktop/Claude/chinese-learning-bot/data/progress.json`: increment `total_attempted`, increment `total_correct` if right, add the character to `seen_words`.
    - Show feedback (see format below).
 
 ## Flashcard Question Format
@@ -66,7 +66,7 @@ Type 'next' or 'quiz me' for the next card!
 
 ## Updating Progress
 
-After each answer, read `data/progress.json`, update the `flashcard` object, and write it back:
+After each answer, read `/Users/bayalagmaa/Desktop/Claude/chinese-learning-bot/data/progress.json`, update the `flashcard` object, and write it back:
 ```json
 {
   "flashcard": {
@@ -93,5 +93,5 @@ Words learned: [seen_words count] / [total words]
 
 ## Error Handling
 
-- If vocabulary file is missing, reply: "Can't load vocabulary. Check that data/vocabulary.json exists."
+- If vocabulary file is missing, reply: "Can't load vocabulary. Check that /Users/bayalagmaa/Desktop/Claude/chinese-learning-bot/data/vocabulary.json exists."
 - Accept flexible answers: 'hello' matches 'hello / hi', 'love' matches 'love / to love'.

@@ -83,7 +83,7 @@ Translation: [natural English translation]
 
 ## Optional: Check Vocabulary List
 
-You may read `data/vocabulary.json` to check if the word is in the learning list. If it is, add:
+You may read `/Users/bayalagmaa/Desktop/Claude/chinese-learning-bot/data/vocabulary.json` to check if the word is in the learning list. If it is, add:
 ```
 📌 This word is in your study list! Keep practicing it.
 ```

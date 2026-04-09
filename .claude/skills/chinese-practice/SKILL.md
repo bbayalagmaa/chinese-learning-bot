@@ -87,7 +87,7 @@ Use clear directional language:
 
 ## Optional Vocabulary Check
 
-Read `data/vocabulary.json`. If the character is in the study list, add:
+Read `/Users/bayalagmaa/Desktop/Claude/chinese-learning-bot/data/vocabulary.json`. If the character is in the study list, add:
 ```
 🌟 This character is in your HSK study list! You're practicing the right words.
 ```
