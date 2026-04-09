@@ -1,0 +1,257 @@
+[
+  {
+    "id": 1,
+    "title": "我的一天",
+    "title_pinyin": "Wǒ de yī tiān",
+    "title_english": "My Day",
+    "level": "HSK1",
+    "lines": [
+      {
+        "chinese": "我每天早上七点起床。",
+        "pinyin": "Wǒ měitiān zǎoshang qī diǎn qǐchuáng.",
+        "english": "I wake up at 7 o'clock every morning."
+      },
+      {
+        "chinese": "我先喝一杯水，然后吃早饭。",
+        "pinyin": "Wǒ xiān hē yī bēi shuǐ, ránhòu chī zǎofàn.",
+        "english": "I first drink a glass of water, then eat breakfast."
+      },
+      {
+        "chinese": "早饭是面包和鸡蛋。",
+        "pinyin": "Zǎofàn shì miànbāo hé jīdàn.",
+        "english": "Breakfast is bread and eggs."
+      },
+      {
+        "chinese": "八点，我去学校。",
+        "pinyin": "Bā diǎn, wǒ qù xuéxiào.",
+        "english": "At 8 o'clock, I go to school."
+      },
+      {
+        "chinese": "学校很近，我走路去。",
+        "pinyin": "Xuéxiào hěn jìn, wǒ zǒulù qù.",
+        "english": "The school is very close, I walk there."
+      },
+      {
+        "chinese": "我很喜欢我的老师。",
+        "pinyin": "Wǒ hěn xǐhuān wǒ de lǎoshī.",
+        "english": "I really like my teacher."
+      },
+      {
+        "chinese": "下午，我在家学习汉语。",
+        "pinyin": "Xiàwǔ, wǒ zài jiā xuéxí Hànyǔ.",
+        "english": "In the afternoon, I study Chinese at home."
+      }
+    ],
+    "vocabulary": [
+      {"word": "起床", "pinyin": "qǐchuáng", "meaning": "to wake up / get out of bed"},
+      {"word": "先...然后", "pinyin": "xiān...ránhòu", "meaning": "first...then (sequence pattern)"},
+      {"word": "走路", "pinyin": "zǒulù", "meaning": "to walk"}
+    ],
+    "comprehension_question": "What does the person eat for breakfast? (Reply: answer: [your answer])",
+    "comprehension_answer": "bread and eggs / 面包和鸡蛋"
+  },
+  {
+    "id": 2,
+    "title": "小猫和老鼠",
+    "title_pinyin": "Xiǎo māo hé lǎoshǔ",
+    "title_english": "The Cat and the Mouse",
+    "level": "HSK1-2",
+    "lines": [
+      {
+        "chinese": "有一只小猫，它很可爱。",
+        "pinyin": "Yǒu yī zhī xiǎo māo, tā hěn kě'ài.",
+        "english": "There is a little cat, it is very cute."
+      },
+      {
+        "chinese": "小猫每天都想抓老鼠。",
+        "pinyin": "Xiǎo māo měitiān dōu xiǎng zhuā lǎoshǔ.",
+        "english": "The cat wants to catch mice every day."
+      },
+      {
+        "chinese": "有一天，老鼠跑得很快。",
+        "pinyin": "Yǒu yī tiān, lǎoshǔ pǎo de hěn kuài.",
+        "english": "One day, the mouse ran very fast."
+      },
+      {
+        "chinese": "小猫追不上它。",
+        "pinyin": "Xiǎo māo zhuī bù shàng tā.",
+        "english": "The cat couldn't catch up with it."
+      },
+      {
+        "chinese": "老鼠笑着说：'你跑得太慢了！'",
+        "pinyin": "Lǎoshǔ xiào zhe shuō: 'Nǐ pǎo de tài màn le!'",
+        "english": "The mouse laughed and said: 'You run too slowly!'"
+      },
+      {
+        "chinese": "小猫很不高兴，决定每天练习跑步。",
+        "pinyin": "Xiǎo māo hěn bù gāoxìng, juédìng měitiān liànxí pǎobù.",
+        "english": "The cat was unhappy and decided to practice running every day."
+      },
+      {
+        "chinese": "努力是成功的开始！",
+        "pinyin": "Nǔlì shì chénggōng de kāishǐ!",
+        "english": "Hard work is the beginning of success!"
+      }
+    ],
+    "vocabulary": [
+      {"word": "追不上", "pinyin": "zhuī bù shàng", "meaning": "can't catch up with"},
+      {"word": "决定", "pinyin": "juédìng", "meaning": "to decide"},
+      {"word": "努力", "pinyin": "nǔlì", "meaning": "to work hard / effort"}
+    ],
+    "comprehension_question": "Why was the cat unhappy? (Reply: answer: [your answer])",
+    "comprehension_answer": "because it couldn't catch the mouse / the mouse said it was too slow"
+  },
+  {
+    "id": 3,
+    "title": "去超市买东西",
+    "title_pinyin": "Qù chāoshì mǎi dōngxi",
+    "title_english": "Going to the Supermarket",
+    "level": "HSK2",
+    "lines": [
+      {
+        "chinese": "今天妈妈让我去超市买东西。",
+        "pinyin": "Jīntiān māma ràng wǒ qù chāoshì mǎi dōngxi.",
+        "english": "Today mom asked me to go to the supermarket to buy things."
+      },
+      {
+        "chinese": "我需要买苹果、牛奶和面条。",
+        "pinyin": "Wǒ xūyào mǎi píngguǒ, niúnǎi hé miàntiáo.",
+        "english": "I need to buy apples, milk, and noodles."
+      },
+      {
+        "chinese": "超市里的人很多，很热闹。",
+        "pinyin": "Chāoshì lǐ de rén hěn duō, hěn rènào.",
+        "english": "There are many people in the supermarket, very lively."
+      },
+      {
+        "chinese": "苹果一斤五块钱，我买了两斤。",
+        "pinyin": "Píngguǒ yī jīn wǔ kuài qián, wǒ mǎi le liǎng jīn.",
+        "english": "Apples are 5 yuan per jin, I bought two jin."
+      },
+      {
+        "chinese": "找到牛奶和面条之后，我去付钱。",
+        "pinyin": "Zhǎodào niúnǎi hé miàntiáo zhīhòu, wǒ qù fù qián.",
+        "english": "After finding the milk and noodles, I went to pay."
+      },
+      {
+        "chinese": "一共花了二十块钱。",
+        "pinyin": "Yīgòng huā le èrshí kuài qián.",
+        "english": "It cost 20 yuan in total."
+      },
+      {
+        "chinese": "妈妈看到我买的东西，很高兴。",
+        "pinyin": "Māma kàndào wǒ mǎi de dōngxi, hěn gāoxìng.",
+        "english": "Mom saw what I bought and was very happy."
+      }
+    ],
+    "vocabulary": [
+      {"word": "热闹", "pinyin": "rènào", "meaning": "lively / bustling"},
+      {"word": "一共", "pinyin": "yīgòng", "meaning": "in total / altogether"},
+      {"word": "花", "pinyin": "huā", "meaning": "to spend (money or time)"}
+    ],
+    "comprehension_question": "How much did the apples cost per jin, and how many jin did they buy? (Reply: answer: [your answer])",
+    "comprehension_answer": "5 yuan per jin, bought 2 jin"
+  },
+  {
+    "id": 4,
+    "title": "我的朋友来自蒙古",
+    "title_pinyin": "Wǒ de péngyǒu lái zì Měnggǔ",
+    "title_english": "My Friend is from Mongolia",
+    "level": "HSK2",
+    "lines": [
+      {
+        "chinese": "我有一个好朋友，她叫苏菲亚。",
+        "pinyin": "Wǒ yǒu yī gè hǎo péngyǒu, tā jiào Sūfēiyà.",
+        "english": "I have a good friend, her name is Sofia."
+      },
+      {
+        "chinese": "她来自蒙古，现在在中国学习。",
+        "pinyin": "Tā lái zì Měnggǔ, xiànzài zài Zhōngguó xuéxí.",
+        "english": "She comes from Mongolia and is now studying in China."
+      },
+      {
+        "chinese": "她的汉语说得越来越好。",
+        "pinyin": "Tā de Hànyǔ shuō de yuè lái yuè hǎo.",
+        "english": "Her Chinese is getting better and better."
+      },
+      {
+        "chinese": "她每天学习一个小时汉语。",
+        "pinyin": "Tā měitiān xuéxí yī gè xiǎoshí Hànyǔ.",
+        "english": "She studies Chinese for one hour every day."
+      },
+      {
+        "chinese": "她告诉我，蒙古的冬天非常冷。",
+        "pinyin": "Tā gàosu wǒ, Měnggǔ de dōngtiān fēicháng lěng.",
+        "english": "She told me that winters in Mongolia are extremely cold."
+      },
+      {
+        "chinese": "她的梦想是去复旦大学读研究生。",
+        "pinyin": "Tā de mèngxiǎng shì qù Fùdàn Dàxué dú yánjiūshēng.",
+        "english": "Her dream is to study for a master's degree at Fudan University."
+      },
+      {
+        "chinese": "我相信她一定会成功的！",
+        "pinyin": "Wǒ xiāngxìn tā yīdìng huì chénggōng de!",
+        "english": "I believe she will definitely succeed!"
+      }
+    ],
+    "vocabulary": [
+      {"word": "越来越", "pinyin": "yuè lái yuè", "meaning": "more and more (getting progressively + adjective)"},
+      {"word": "告诉", "pinyin": "gàosu", "meaning": "to tell someone"},
+      {"word": "相信", "pinyin": "xiāngxìn", "meaning": "to believe / to trust"}
+    ],
+    "comprehension_question": "What is Sofia's dream? (Reply: answer: [your answer])",
+    "comprehension_answer": "to study for a master's degree at Fudan University"
+  },
+  {
+    "id": 5,
+    "title": "第一次喝奶茶",
+    "title_pinyin": "Dì yī cì hē nǎichá",
+    "title_english": "Drinking Bubble Tea for the First Time",
+    "level": "HSK2",
+    "lines": [
+      {
+        "chinese": "我的朋友带我去喝奶茶。",
+        "pinyin": "Wǒ de péngyǒu dài wǒ qù hē nǎichá.",
+        "english": "My friend took me to drink bubble tea."
+      },
+      {
+        "chinese": "这是我第一次喝奶茶。",
+        "pinyin": "Zhè shì wǒ dì yī cì hē nǎichá.",
+        "english": "This was my first time drinking bubble tea."
+      },
+      {
+        "chinese": "菜单上有很多口味：草莓、抹茶、芒果……",
+        "pinyin": "Càidān shàng yǒu hěn duō kǒuwèi: cǎoméi, mǒchá, mángguǒ……",
+        "english": "The menu had many flavors: strawberry, matcha, mango..."
+      },
+      {
+        "chinese": "我选了芒果味，加了珍珠。",
+        "pinyin": "Wǒ xuǎn le mángguǒ wèi, jiā le zhēnzhū.",
+        "english": "I chose mango flavor and added tapioca pearls."
+      },
+      {
+        "chinese": "第一口，甜甜的，非常好喝！",
+        "pinyin": "Dì yī kǒu, tián tián de, fēicháng hǎo hē!",
+        "english": "The first sip — sweet and delicious!"
+      },
+      {
+        "chinese": "珍珠嚼起来很有趣，软软的。",
+        "pinyin": "Zhēnzhū jiáo qǐlái hěn yǒuqù, ruǎn ruǎn de.",
+        "english": "Chewing the pearls was fun — soft and chewy."
+      },
+      {
+        "chinese": "我爱上了奶茶，以后要常常来！",
+        "pinyin": "Wǒ ài shàng le nǎichá, yǐhòu yào chángcháng lái!",
+        "english": "I fell in love with bubble tea and will come often!"
+      }
+    ],
+    "vocabulary": [
+      {"word": "口味", "pinyin": "kǒuwèi", "meaning": "flavor / taste preference"},
+      {"word": "珍珠", "pinyin": "zhēnzhū", "meaning": "pearl / tapioca balls in bubble tea"},
+      {"word": "爱上", "pinyin": "ài shàng", "meaning": "to fall in love with something"}
+    ],
+    "comprehension_question": "What flavor did the person choose, and what did they add? (Reply: answer: [your answer])",
+    "comprehension_answer": "mango flavor with tapioca pearls"
+  }
+]
